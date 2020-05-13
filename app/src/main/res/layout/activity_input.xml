@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InputActivity">
+
+    <EditText
+        android:id="@+id/nomor_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Masukan Nim"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="80dp"
+        android:ems="10"
+        android:hint="Masukan Nama"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="140dp"
+        android:ems="10"
+        android:hint="Masukan Email"
+        android:inputType="textEmailAddress"/>
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="200dp"
+        android:text="Save "
+        android:textColor="@color/Black"
+        android:background="@color/whiteSky"/>
+
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="200dp"
+        android:text="Cancel"
+        android:textColor="@color/Black"
+        android:background="@color/whiteSky"/>
+
+</RelativeLayout>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="298dp"
+        android:background="@drawable/me" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260dp"
+        android:layout_gravity="center"
+        android:background="@drawable/instagram" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260dp"
+        android:layout_gravity="center"
+        android:layout_marginRight="80dp"
+        android:background="@drawable/twitter" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="80dp"
+        android:background="@drawable/facebook" />
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/seguisb"
+        android:text="Mohamad Riyan Hidayat"
+        android:textColor="@color/Black"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/seguisb"
+        android:text="10117227"
+        android:textColor="@color/blueDark"
+        android:textSize="29sp"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/seguisb"
+        android:text="IF - 7"
+        android:textColor="@color/blueDark"
+        android:textSize="29sp"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/seguisb"
+        android:text="I'm a student"
+        android:textColor="@color/Black"
+        android:textSize="29sp"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/seguisb"
+        android:text="Indonesia computer University"
+        android:textColor="@color/blueDark"
+        android:textSize="25sp"/>
+
+    <Button
+        android:id="@+id/contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="330dp"
+        android:textColor="@color/whiteSky"
+        android:background="@color/blueDark"/>
+
+</FrameLayout>
